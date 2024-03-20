@@ -1,0 +1,343 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+img{
+    display: block;
+}
+.header {
+    position: relative;
+    margin-left: 160px;
+    margin-right: 160px;
+    height: 116px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.header_title {
+    justify-self: start;
+    padding-top: 56px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1C2A39;
+
+}
+
+.header_navigation{
+    justify-self: center;
+    padding-top: 56px;
+ }
+
+.header_navigation-button, .main-button-point{ 
+    border: none;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #5C6A79;
+    text-transform: uppercase;
+}
+#button1 {
+    color: #1C2A39;
+}
+
+.header_Icon{
+    justify-self: end;
+    padding-top: 56px;
+
+}
+ 
+.header_title{
+    font-size: 24px;
+}
+
+.header_navigation{
+    font-size: 10px;
+}
+
+.header_Icon-blok{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header_Icon-shopCart{
+    display: flex;
+}
+.header_Icon-shop{
+    display: flex;
+    top:6px;
+    right:9px;
+    position: relative;
+    /*z-index:1;*/
+	
+}
+#shopBagQuantity{
+   display: flex;
+   position: absolute;
+   width: 13px;
+   align-self: center;
+   align-items: center;
+   justify-items: center;
+   justify-content: center;
+   z-index:2;
+   font-size: 10px;
+   font-weight: medium;
+   color: #FFFFFF;
+}
+
+.header_Icon-blok-img{
+    display: inline;
+    margin-left: 40px;
+ 
+}
+.body{
+  position: relative;
+}
+.main{
+    position: relative;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+ #main-banner{
+    margin-left: 160px;
+    margin-right: 160px;
+    width: 1120px;
+    height: 702px;
+}
+.main-banner{
+    display: block;
+    margin-top: 0px;
+    width: 1120px;
+    height: 702px;
+    flex-shrink: 0;
+}
+
+.main-navigation{
+    display: grid;
+    margin-top: 17px;
+    grid-template-columns: 1fr 10px 1fr;
+    margin-left: 160px;
+    width: 1120px;
+    justify-self: center;
+}
+
+#point1{
+    justify-self: end;
+}
+
+#point2{
+    justify-self: center;
+}
+
+#point3{
+    justify-self: start;
+}
+
+.main-category{
+    display: block;
+    margin-left: 0px;
+    padding-top: 45px;
+    max-width: 416px;
+    box-sizing: 416px;
+    margin-top: 45px;
+    background-color: #EFEEF6;
+    z-index: -1;
+}
+.listCategoriya{
+    padding-left: 160px;
+/*    margin-left: 0px;*/
+    /* padding-left: 158px; */
+    padding-top: 45px;
+    padding-bottom: 81px;
+    max-width: 416px;
+    font-size: 12px;
+    font-weight: medium;
+    background-color: #EFEEF6;
+    list-style: none; /*url/images/Ellipse3.svg);*/
+
+}
+.listCategoriya_li{
+    margin-bottom: 23px;
+    max-width: 416px;
+    list-style-image: none; /*url(/images/Ellipse3.svg);*/
+    font-size: 12px;
+    background-color: #EFEEF6;
+    font-weight: medium;
+    /*list-style: none;*/
+
+}
+
+.currentCategoriya{
+    list-style: url(./images/Ellipse3.svg);
+    margin-bottom: 23px;
+    max-width: 416px;
+    font-size: 16px;
+    color: #1C2A39;
+    font-weight: bold;
+    background-color: #EFEEF6;
+}
+
+.main-promo1{
+    position: absolute;
+    left: 1217px;
+    top: 195px;
+    z-index: 2;
+}
+.main-promo2{
+    position: absolute;
+    left: 1303px;
+    top: 495px;
+    z-index: 2;
+}
+.main-books{
+    position: absolute;
+    top: 885px;
+    display: flex;
+    width: 100vmax;
+    ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 356px;
+}
+.listBook{
+    display: grid;
+    grid-template-columns:212px 212px;
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    gap: 0px;
+    
+} 
+.list_books_img{
+    display: block;
+    width: 212px;
+    height: 300px;
+    object-fit: fill;
+    margin: 0px;
+}
+
+.listBookDescrib{
+    display: flex;
+    flex-direction: column;
+
+}
+.list_books_dis{
+    margin-top: 49px;
+}
+.button_buy{
+    margin-top: 16px;
+    margin-left: 38px;
+    width: 176px;
+    height: 45px;
+    color:#4C3DB2 ;
+    font-size: 8px;
+    font-weight: bold;
+    border: 1px solid #4C3DB2;
+    background-color: white;
+   
+}
+.button_buyCart{
+    margin-top: 16px;
+    margin-left: 38px;
+    width: 176px;
+    height: 45px;
+    font-size: 8px;
+    font-weight: bold;
+    color: #5C6A79;
+    border: 1px solid #EEEDF5;
+    background-color: white;
+   
+}
+.book-author{
+    /*font-family: open sans;*/
+    font-size: 10px;
+    color: #5C6A79;
+    font-weight: normal;
+    margin-left: 36px; 
+    margin-bottom: 4px;
+}
+
+.raiting{
+    display: flex;
+    flex-direction: row;
+    padding-left: 36px;
+    padding-bottom: 16px;
+
+}
+.review{
+    font-size: 10px;
+    font-family: open-sans;
+    font-weight: regular;
+    color: #5C6A79;
+
+}
+
+
+.book-title{
+    /*font-family: open sans;*/
+    font-size: 16px;
+    font-weight: bold;
+    color: #1C2A39;
+    margin-left: 36px;
+    margin-bottom: 4px;
+
+}
+
+.book-discrib{
+    font-family: open-sans;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    width: 176px;
+  /*  height: 38px;*/
+    overflow: hidden;
+    font-size: 10px;
+    font-weight:normal;
+    color: #5C6A79;
+    margin-left: 36px;
+ 
+}
+
+.bookPrice{
+    margin-left: 36px;
+    margin-top: 16px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #1C2A39;
+}
+
+
+.footer-class {
+    position: relative;;
+    display: flex;
+ /*   margin-left: 356px;*/
+    margin-top: 48px;
+    justify-content: center;
+    align-items: center;
+    color: #4C3DB2;
+    font-size: 8px;
+    font-weight: bold;
+    background-color: white;
+    height: 45px;
+    width: 100%;
+}
+.button_load{
+/*    position: absolute;*/
+    color: #4C3DB2;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    margin: 0px;
+    font-size: 8px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    border: 1px solid #4C3DB2;
+    text-transform: uppercase;
+    background-color: white;
+    height: 45px;
+    width: 176px;
+}
+
